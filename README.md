@@ -123,7 +123,7 @@ After logging in, pfSense will prompt you to change the default admin password. 
 ![image](https://github.com/user-attachments/assets/eb14b018-83da-4b24-9d71-29c490fa1155)
 
 
-![image](https://github.com/user-attachments/assets/c2f7e628-5cdf-40e4-8c6c-a84bffefe082)
+
 
 
 ###  Configure Domain and Hostname: ###
@@ -141,29 +141,34 @@ In the DNS Server field, specify the IP address of your local DNS server.
 Additionally, you may establish additional DNS servers as backup options, such as Cloudflare's 1.1.1.1 or Google's 8.8.8.8, at your discretion.
 To implement the DNS configuration, select "Save."
 
+![image](https://github.com/user-attachments/assets/918cf441-53ac-4205-b2a3-f7f1cc48ea4b)
+
 
 ### System Updates ###
 Keeping pfSense up to date is crucial for security and performance. Here’s how to check for updates:
 
-Access the Dashboard:
-After logging into the pfSense web interface, navigate to Status > Dashboard.
-Check for Updates:
-On the dashboard, look for the “System Information” widget, which displays the current version of pfSense.
-If you see a notification indicating that updates are available, you can proceed to the next step.
-Apply Updates:
-To update pfSense, go to System > Update. Here, you can:
-. Check for Updates: Click on the “Check for Updates” button to see if a new version is available.
-. Apply Updates: If updates are available, you can select the desired update and follow the prompts to apply it. Always ensure you have a backup of your configuration before performing updates.
-Reboot if Necessary:
-Some updates may require a reboot. If prompted, restart pfSense to complete the update process.
+Go to Status > Dashboard on the pfSense web interface after logging in.
+Check Updates:
+
+Find the “System Information” widget on the dashboard to see the current pfSense version.
+If you get an update notification, continue.
+
+To upgrade pfSense, navigate to System > upgrade. Here, you can:. Check Updates: Click the “Check for Updates” button to check for new updates. Choose an update and follow the steps to apply it. Always back up your settings before updating.
+
+Reboot If Needed:
+Updates may need rebooting. Restart pfSense to finish updating if requested.
 Verify Update Success:
-After rebooting, return to Status > Dashboard to verify that the version displayed matches the latest update.
+
+Restart and check Status > Dashboard for the latest update.Version shown is current.
 
 
-![image](https://github.com/user-attachments/assets/3573feaa-8bbf-45ba-a396-0fb6ae31574b)
+
+![image](https://github.com/user-attachments/assets/1e4ad2bf-9723-4a6d-b577-82183dd76fdd)
 
 
-If you encounter any issues during the installation, configuration, or update process, feel free to reach out to me for assistance.
+
+Feel free to contact me for help if you run into any problems with the setup, configuration, or update procedures.
+
 
 
 
